@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+font-family: "Roboto", sans-serif;
+text-decoration: none;
+list-style-type: none;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+table {
+background: #fff;
+padding: 10px 15px;
+border-collapse: collapse;
+margin: 30px;
+}
+
+h3 {
+font-size: 18px;
+}
+
+.fa-check {
+color: #3bb1a9;
+padding-right: 4px;
+font-weight: bold;
+}
+
+.table-heading {
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+color: #247667;
+background-color: #ebf5f3;
+}
+
+.btn {
+padding: 10px 20px;
+color: black;
+background-color: orange;
+border: 1px solid grey;
+border-radius: 10px;
+font-weight: 600;
+}
+
+td {
+padding: 20px 30px;
+}
+
+.border-bottom {
+border-bottom: 1px solid #d0d7d6;
+}
+
+body {
+background: lightgrey;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+tr {
+position: relative;
+}
+
+.badge {
+background: #ff8b7c;
+color: #fff;
+padding: 6px 14px;
+line-height: 1em;
+text-align: center;
+text-transform: uppercase;
+text-decoration: none;
+letter-spacing: 0.5px;
+font-weight: 700;
+font-size: 13px;
+display: block;
+z-index: 9;
+margin: 6px 0 10px;
+position: absolute;
+left: -14px;
+top: 0;
+white-space: nowrap;
+}
+
+.badge:before {
+display: block;
+width: 0;
+height: 0;
+position: absolute;
+left: 0;
+bottom: -23px;
+content: "";
+border-bottom: 23px solid transparent;
+border-right: 13px solid #ff8b7c;
+}
